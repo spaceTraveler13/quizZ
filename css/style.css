@@ -197,7 +197,7 @@ body {
 }
 
 .offer {
-  background: url(/img/background-main-1440.jpg) no-repeat center/cover;
+  background: url(img/background-main-1440.jpg) no-repeat center/cover;
   height: 100vh;
   padding: 50px 0;
 }
