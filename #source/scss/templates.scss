@@ -1,0 +1,89 @@
+%styleNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+%styleNavlogo{
+    width: 111px;
+    height: 55px;
+}
+%styleNavtel{
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+%styleNavTelDesc{
+    margin-top: 5px;
+    text-align: end;
+    font-size: 14px;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+%styleBtn{
+    color: #fff;
+    background: #1B6EB8;
+    border-radius: 6px;
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    width: 147px;
+    padding: 18px 45px;
+    display: block;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    &:hover{
+        background: #223399;
+    }
+}
+%styleBtnGhost{
+    color: #1B6EB8;
+    background: #fff;
+    width: 147px;
+    padding: 18px 45px;
+    border: 1px solid #1B6EB8;
+    border-radius: 6px;
+    display: block;
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    &:hover{
+        background: #223399;
+        color: #fff;
+    }
+}
+%styleBoxBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+%styleCounter{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1B6EB8;
+}
+%styleAbi{
+    display: flex;
+    align-items: center;
+}
+%styleAbiBefore{
+    width: 45px;
+    height: 46px;
+    margin-right: 20px;
+    display: block;
+}
+%styleTitles{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+%styleRadio{
+    width: 10px;
+    height: 10px;
+}
