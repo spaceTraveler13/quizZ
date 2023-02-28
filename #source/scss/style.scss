@@ -5,21 +5,21 @@
 }
 //  OFFER
 .offer{
-    background: url(img/background-main-1440.jpg)no-repeat center/cover;
+    background: url(../img/background-main-1440.jpg)no-repeat center/cover;
     height: 100vh;
     padding: 50px 0;
     .offer-nav{
         @extend %styleNav;
         .logo{
             @extend %styleNavlogo;
-            background: url(/img/logo.svg)no-repeat;
+            background: url(../img/logo.svg)no-repeat;
         }
         .tel{
             @extend %styleNavtel;
             &::before{
                 content: "";
                 display: block;
-                background: url(/img/menu-tel.svg);
+                background: url(../img/menu-tel.svg);
                 width: 15px;
                 height: 14px;
                 margin-right: 10px;
@@ -70,7 +70,7 @@
             @extend %styleAbi;
             &::before{
                 content: "";
-                background: url(/img/img-offer-factory.svg)no-repeat;
+                background: url(../img/img-offer-factory.svg)no-repeat;
                 @extend %styleAbiBefore;
             }
         }
@@ -78,7 +78,7 @@
             @extend %styleAbi;
             &::before{
                 content: "";
-                background: url(/img/img-offer-tools.svg)no-repeat;
+                background: url(../img/img-offer-tools.svg)no-repeat;
                 @extend %styleAbiBefore;
             }
         }
@@ -86,7 +86,7 @@
             @extend %styleAbi;
             &::before{
                 content: "";
-                background: url(/img/img-offer-slave.svg)no-repeat;
+                background: url(../img/img-offer-slave.svg)no-repeat;
                 @extend %styleAbiBefore;
             }
         }
@@ -98,7 +98,7 @@
 }
 // GOALS
 .goals{
-    background: url(/img/backgroundQuiz.png)no-repeat center/cover;
+    background: url(../img/backgroundQuiz.png)no-repeat center/cover;
     padding: 50px 0;
     height: 100vh;
     .plates{
@@ -121,7 +121,7 @@
         }
         .plate-box__radio-real:checked + .plate-box__radio-fake::before {
             content: "";
-            background: url(/img/radio-btn.svg)no-repeat;
+            background: url(../img/radio-btn.svg)no-repeat;
             display: block;
             position: absolute;
             left: -18px;
@@ -148,7 +148,7 @@
 }
 // FOUNDATION
 .foundation{
-    background: url(/img/backgroundQuiz.png)no-repeat center/cover;
+    background: url(../img/backgroundQuiz.png)no-repeat center/cover;
     padding: 250px 0;
     height: 100vh;
     & .radio{
@@ -181,7 +181,7 @@
 }
 // SIZE-OBJECT
 .size-object{
-    background: url(/img/backgroundQuiz.png)no-repeat center/cover;
+    background: url(../img/backgroundQuiz.png)no-repeat center/cover;
     padding: 100px 0;
     height: 100vh;
     .range-box{
@@ -217,7 +217,7 @@
 }
 // FORM-PLATE
 .form-plate{
-    background: url(/img/background-main-1440.jpg)no-repeat center/cover;
+    background: url(../img/background-main-1440.jpg)no-repeat center/cover;
     padding: 100px 0;
     height: 100vh;
     .form-box{
@@ -271,14 +271,14 @@
         @extend %styleNav;
         .logo{
             @extend %styleNavlogo;
-            background: url(/img/logo.svg)no-repeat;
+            background: url(../img/logo.svg)no-repeat;
         }
         .tel{
             @extend %styleNavtel;
             &::before{
                 content: "";
                 display: block;
-                background: url(/img/menu-tel.svg);
+                background: url(../img/menu-tel.svg);
                 width: 15px;
                 height: 14px;
                 margin-right: 10px;
@@ -295,7 +295,7 @@
 // THANKS
 .thanks{
     height: 100vh;
-    background: url(/img/backgroundQuiz.png)no-repeat center/cover;
+    background: url(../img/backgroundQuiz.png)no-repeat center/cover;
     padding: 100px 0;
     div{
         max-width: 535px;

@@ -197,19 +197,19 @@ body {
 }
 
 .offer {
-  background: url(img/background-main-1440.jpg) no-repeat center/cover;
+  background: url(../img/background-main-1440.jpg) no-repeat center/cover;
   height: 100vh;
   padding: 50px 0;
 }
 
 .offer .offer-nav .logo {
-  background: url(/img/logo.svg) no-repeat;
+  background: url(../img/logo.svg) no-repeat;
 }
 
 .offer .offer-nav .tel::before {
   content: "";
   display: block;
-  background: url(/img/menu-tel.svg);
+  background: url(../img/menu-tel.svg);
   width: 15px;
   height: 14px;
   margin-right: 10px;
@@ -272,17 +272,17 @@ body {
 
 .offer .offer-ability .ability-factory::before {
   content: "";
-  background: url(/img/img-offer-factory.svg) no-repeat;
+  background: url(../img/img-offer-factory.svg) no-repeat;
 }
 
 .offer .offer-ability .ability-state::before {
   content: "";
-  background: url(/img/img-offer-tools.svg) no-repeat;
+  background: url(../img/img-offer-tools.svg) no-repeat;
 }
 
 .offer .offer-ability .ability-exp::before {
   content: "";
-  background: url(/img/img-offer-slave.svg) no-repeat;
+  background: url(../img/img-offer-slave.svg) no-repeat;
 }
 
 .offer .offer-ability .ability-desc {
@@ -291,7 +291,7 @@ body {
 }
 
 .goals {
-  background: url(/img/backgroundQuiz.png) no-repeat center/cover;
+  background: url(../img/backgroundQuiz.png) no-repeat center/cover;
   padding: 50px 0;
   height: 100vh;
 }
@@ -327,7 +327,7 @@ body {
 
 .goals .plate-box .plate-box__radio-real:checked + .plate-box__radio-fake::before {
   content: "";
-  background: url(/img/radio-btn.svg) no-repeat;
+  background: url(../img/radio-btn.svg) no-repeat;
   display: block;
   position: absolute;
   left: -18px;
@@ -341,7 +341,7 @@ body {
 }
 
 .foundation {
-  background: url(/img/backgroundQuiz.png) no-repeat center/cover;
+  background: url(../img/backgroundQuiz.png) no-repeat center/cover;
   padding: 250px 0;
   height: 100vh;
 }
@@ -370,7 +370,7 @@ body {
 }
 
 .size-object {
-  background: url(/img/backgroundQuiz.png) no-repeat center/cover;
+  background: url(../img/backgroundQuiz.png) no-repeat center/cover;
   padding: 100px 0;
   height: 100vh;
 }
@@ -405,7 +405,7 @@ body {
 }
 
 .form-plate {
-  background: url(/img/background-main-1440.jpg) no-repeat center/cover;
+  background: url(../img/background-main-1440.jpg) no-repeat center/cover;
   padding: 100px 0;
   height: 100vh;
 }
@@ -482,13 +482,13 @@ body {
 }
 
 .form-plate .offer-nav .logo {
-  background: url(/img/logo.svg) no-repeat;
+  background: url(../img/logo.svg) no-repeat;
 }
 
 .form-plate .offer-nav .tel::before {
   content: "";
   display: block;
-  background: url(/img/menu-tel.svg);
+  background: url(../img/menu-tel.svg);
   width: 15px;
   height: 14px;
   margin-right: 10px;
@@ -502,7 +502,7 @@ body {
 
 .thanks {
   height: 100vh;
-  background: url(/img/backgroundQuiz.png) no-repeat center/cover;
+  background: url(../img/backgroundQuiz.png) no-repeat center/cover;
   padding: 100px 0;
 }
 
