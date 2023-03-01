@@ -345,12 +345,11 @@ body {
 
 .foundation {
   background: url(../img/backgroundQuiz.png) no-repeat center/cover;
-  padding: 250px 0;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .foundation .radio {
-  margin-top: 98px;
+  width: 100%;
 }
 
 .foundation .radio-box {

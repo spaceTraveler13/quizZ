@@ -139,10 +139,9 @@
 // FOUNDATION
 .foundation{
     background: url(../img/backgroundQuiz.png)no-repeat center/cover;
-    padding: 250px 0;
-    height: 100vh;
+    min-height: 100vh;
     & .radio{
-        margin-top: 98px;
+        width: 100%;
     }
     & .radio-box{
         display: flex;
