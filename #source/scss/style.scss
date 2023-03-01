@@ -171,8 +171,10 @@
 // SIZE-OBJECT
 .size-object{
     background: url(../img/backgroundQuiz.png)no-repeat center/cover;
-    padding: 100px 0;
-    height: 100vh;
+    min-height: 100vh;
+    .ranges{
+        width: 100%;
+    }
     .range-box{
         margin-bottom: 40px;
     }
@@ -207,8 +209,7 @@
 // FORM-PLATE
 .form-plate{
     background: url(../img/background-main-1440.jpg)no-repeat center/cover;
-    padding: 100px 0;
-    height: 100vh;
+    min-height: 100vh;
     .form-box{
         max-width: 440px;
         padding: 24px 0;
@@ -256,37 +257,12 @@
             }
         }
     }
-    .offer-nav{
-        @extend %styleNav;
-        .logo{
-            @extend %styleNavlogo;
-            background: url(../img/logo.svg)no-repeat;
-        }
-        .tel{
-            @extend %styleNavtel;
-            &::before{
-                content: "";
-                display: block;
-                background: url(../img/menu-tel.svg);
-                width: 15px;
-                height: 14px;
-                margin-right: 10px;
-            }
-        }
-        .tel-desc{
-            @extend %styleNavTelDesc;
-            &:hover{
-                transform: scale(1.5);
-            }
-        }
-    }
 }
 // THANKS
 .thanks{
-    height: 100vh;
     background: url(../img/backgroundQuiz.png)no-repeat center/cover;
-    padding: 100px 0;
-    div{
+    min-height: 100vh;
+    .thank-box{
         max-width: 535px;
         margin: auto;
         text-align: center;

@@ -92,7 +92,7 @@ body {
   justify-content: space-around;
 }
 
-.offer .offer-nav, .form-plate .offer-nav {
+.offer .offer-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,12 +105,12 @@ body {
   width: 100%;
 }
 
-.offer .offer-nav .logo, .form-plate .offer-nav .logo {
+.offer .offer-nav .logo {
   width: 111px;
   height: 55px;
 }
 
-.offer .offer-nav .tel, .form-plate .offer-nav .tel {
+.offer .offer-nav .tel {
   font-size: 14px;
   color: #fff;
   display: -webkit-box;
@@ -121,7 +121,7 @@ body {
   align-items: center;
 }
 
-.offer .offer-nav .tel-desc, .form-plate .offer-nav .tel-desc {
+.offer .offer-nav .tel-desc {
   margin-top: 5px;
   text-align: end;
   font-size: 14px;
@@ -373,8 +373,11 @@ body {
 
 .size-object {
   background: url(../img/backgroundQuiz.png) no-repeat center/cover;
-  padding: 100px 0;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.size-object .ranges {
+  width: 100%;
 }
 
 .size-object .range-box {
@@ -408,8 +411,7 @@ body {
 
 .form-plate {
   background: url(../img/background-main-1440.jpg) no-repeat center/cover;
-  padding: 100px 0;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .form-plate .form-box {
@@ -483,47 +485,27 @@ body {
   margin-right: 8px;
 }
 
-.form-plate .offer-nav .logo {
-  background: url(../img/logo.svg) no-repeat;
-}
-
-.form-plate .offer-nav .tel::before {
-  content: "";
-  display: block;
-  background: url(../img/menu-tel.svg);
-  width: 15px;
-  height: 14px;
-  margin-right: 10px;
-}
-
-.form-plate .offer-nav .tel-desc:hover {
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-}
-
 .thanks {
-  height: 100vh;
   background: url(../img/backgroundQuiz.png) no-repeat center/cover;
-  padding: 100px 0;
+  min-height: 100vh;
 }
 
-.thanks div {
+.thanks .thank-box {
   max-width: 535px;
   margin: auto;
   text-align: center;
 }
 
-.thanks div h2 {
+.thanks .thank-box h2 {
   font-size: 33px;
 }
 
-.thanks div p {
+.thanks .thank-box p {
   font-size: 23px;
   margin: 15px 0;
 }
 
-.thanks div a {
+.thanks .thank-box a {
   width: 110px;
   margin: auto;
   -webkit-transition: all 1s ease;
@@ -531,7 +513,7 @@ body {
   transition: all 1s ease;
 }
 
-.thanks div a:hover {
+.thanks .thank-box a:hover {
   -webkit-transform: rotateY(360deg);
   transform: rotateY(360deg);
 }
