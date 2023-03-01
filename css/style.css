@@ -85,6 +85,7 @@ body {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
+  width: 100%;
 }
 
 .offer .offer-nav .logo, .form-plate .offer-nav .logo {
@@ -168,6 +169,7 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  margin-top: 15px;
 }
 
 .goals .footer-buttons div, .foundation .footer-buttons div, .size-object .footer-buttons div {
@@ -198,8 +200,7 @@ body {
 
 .offer {
   background: url(../img/background-main-1440.jpg) no-repeat center/cover;
-  height: 100vh;
-  padding: 50px 0;
+  min-height: 100vh;
 }
 
 .offer .offer-nav .logo {
@@ -222,16 +223,19 @@ body {
 }
 
 .offer .offer-box {
-  height: 700px;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
 }
 
 .offer .offer-main {
@@ -260,11 +264,11 @@ body {
 }
 
 .offer .offer-ability {
-  margin: 82px auto 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 875px;
+  max-width: 900px;
+  width: 100%;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
