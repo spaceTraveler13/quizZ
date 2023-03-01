@@ -31,13 +31,6 @@
             }
         }
     }
-    .offer-box{
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
     .offer-main{
         max-width: 875px;
         .offer-title{
@@ -98,17 +91,15 @@
 // GOALS
 .goals{
     background: url(../img/backgroundQuiz.png)no-repeat center/cover;
-    padding: 50px 0;
-    height: 100vh;
+    min-height: 100vh;
     .plates{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-top: 45px;
     }
     .plate-box{
         text-align: center;
-        margin: 0 0 45px 0;
+        margin: 0 0 25px 0;
         img{
             width: 295px;
         }

@@ -61,18 +61,35 @@ input {
 body {
   font-family: 'Play', sans-serif;
   font-size: 16px;
+  height: 100%;
 }
 
 .container {
   width: 1440px;
   margin: auto;
+  min-height: 100vh;
 }
 
 .box-title {
   font-size: 30px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 75px;
+}
+
+.offer-box {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
 }
 
 .offer .offer-nav, .form-plate .offer-nav {
@@ -169,7 +186,7 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 15px;
+  width: 100%;
 }
 
 .goals .footer-buttons div, .foundation .footer-buttons div, .size-object .footer-buttons div {
@@ -220,22 +237,6 @@ body {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
-}
-
-.offer .offer-box {
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
 }
 
 .offer .offer-main {
@@ -296,8 +297,7 @@ body {
 
 .goals {
   background: url(../img/backgroundQuiz.png) no-repeat center/cover;
-  padding: 50px 0;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .goals .plates {
@@ -309,12 +309,11 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 45px;
 }
 
 .goals .plate-box {
   text-align: center;
-  margin: 0 0 45px 0;
+  margin: 0 0 25px 0;
 }
 
 .goals .plate-box img {
